@@ -1,0 +1,50 @@
+{
+  "students": [
+    {
+      "name": "twinkle",
+      "Price": "2220",
+      "Status": "update",
+      "id": "38eb"
+    },
+    {
+      "id": "6573",
+      "name": "temple",
+      "Price": "2000",
+      "Status": "Available"
+    },
+    {
+      "name": "twinkle",
+      "Price": "2220",
+      "Status": "update",
+      "id": "38eb"
+    },
+    {
+      "id": "6573",
+      "name": "temple",
+      "Price": "2000",
+      "Status": "Available"
+    },{
+      "name": "twinkle",
+      "Price": "2220",
+      "Status": "update",
+      "id": "38eb"
+    },
+    {
+      "id": "6573",
+      "name": "temple",
+      "Price": "2000",
+      "Status": "Available"
+    },{
+      "name": "twinkle",
+      "Price": "2220",
+      "Status": "update",
+      "id": "38eb"
+    },
+    {
+      "id": "6573",
+      "name": "temple",
+      "Price": "2000",
+      "Status": "Available"
+    }
+  ]
+}

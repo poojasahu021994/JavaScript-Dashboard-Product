@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale Analytics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .right .sales_analytics{
+    margin-top: 1rem;
+}
+.right .sales_analytics .item_online{
+    background-color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px 0;
+    width: 60%;
+    margin-bottom:0.8rem ;
+    padding: 1.4rem var(--card-padding);
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+}
+.right .sales_analytics .item_online:hover{
+    box-shadow: none;
+}
+.right .sales_analytics .item_online .icon{
+    background: coral;
+    padding: 0.8rem;
+    color: var(--clr-white);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    align-items: center;
+}
+.right .sales_analytics .item_online:nth-child(3) .icon{
+background-color: var(--clr-success);
+}
+    </style>
+</head>
+<body>
+    <div class="right">
+    <div class="sales_analytics">
+        <h2>Sale Anatylics</h2>
+        <div class="item_online">
+            <div class="icon">
+            <span class="material-symbols-outlined"> shopping_cart</span>
+            </div>
+            <div class="right_text">
+                <div class="info">
+                    <h3>Online Orders</h3>
+                    <small class="text-muted">Last seen 1 Hours</small>
+                </div>
+                <h5 class="danger">-17%</h5>
+                <h3>302</h3>
+            </div>
+        </div>
+
+        <div class="item_online">
+            <div class="icon">
+            <span class="material-symbols-outlined"> shopping_cart</span>
+            </div>
+            <div class="right_text">
+                <div class="info">
+                    <h3>Shop-2 sales</h3>
+                    <small class="text-muted">Last seen 2 Hours</small>
+                </div>
+                <h5 class="danger">-20%</h5>
+                <h3>302</h3>
+            </div>
+        </div>
+
+        <div class="item_online">
+            <div class="icon">
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+            <div class="right_text">
+                <div class="info">
+                    <h3>Offline Sales</h3>
+                    <small class="text-muted">Last seen 3 Hours</small>
+                </div>
+                <h5 class="danger">-11%</h5>
+                <h3>302</h3>
+            </div>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>

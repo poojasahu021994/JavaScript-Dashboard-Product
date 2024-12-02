@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- aside section start -->
+
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2><span >HomeDecor</span></h2>
+                </div>
+                <div class="close">
+                    <span class="material-symbols-outlined"> close</span>  
+                </div>
+            </div>
+            <!--end top -->
+            <div class="sidebar">
+                <a href="index.html">
+                    <span class="material-symbols-outlined"> grid_view</span>
+                    <h3>Dashbord</h3>
+                </a>
+                
+
+                <a href="#">
+                    <span class="material-symbols-outlined"> person</span>
+                    <h3>Customers</h3>
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-outlined"> insights</span>
+                    <h3>Analytics</h3>
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-outlined"> mail_outline</span>
+                    <h3>Massages</h3>
+                </a>
+                
+                <a href="product_list.html">
+                    <span class="material-symbols-outlined"> receipt_long</span>
+                    <h3>Products</h3>       
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-outlined"> report</span>
+                    <h3>Reports</h3>       
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined"> settings</span>
+                    <h3>Settings</h3>       
+                </a>
+
+                <a href="add_Product.html">
+                    <span class="material-symbols-outlined"> add</span>
+                    <h3>Add Product</h3>       
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined"> logout</span>
+                    <h3>logout</h3>       
+                </a>
+            </div>
+        </aside>
+        <!-- aside section end -->
+
+        <!-- main section start -->
+        <main>
+            <h1>Dashbord</h1>
+            <div class="data"><input type="date"></div>
+
+              <!-- start inside -->
+            <div class="inside">
+                <!-- srart selling -->
+                <div class="sales">
+                    <span class="material-symbols-outlined"> trending_up</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totale Sales</h3>
+                            <h2>25,203RS</h2>
+                            <div class="number">80%</div>
+                            <small>Last 24 hours</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- --end selling -->
+
+                <!-- srart expenses -->
+                <div class="expenses">
+                    <span class="material-symbols-outlined"> local_mall</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totale Expenses</h3>
+                            <h2>25,203RS</h2>
+                            <div class="number">80%</div>
+                            <small>Last 24 hours</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- --end expenses -->
+                 <!-- srart Income -->
+                <div class="income">
+                    <span class="material-symbols-outlined"> stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totale Income</h3>
+                            <h2>25,203RS</h2>
+                            <div class="number">80%</div>
+                            <small>Last 24 hours</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- --end Income -->
+            </div>
+            <!-- end inside -->
+
+            <!-- start recent orders -->
+             <div class="recent_order">
+                <h1>Recent Orders</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>Price</th>
+                            <th>Status</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="showdata">
+                        <tr>
+                            <td>101</td>
+                            <td>Watch</td>
+                            <td>2000</td>
+                            <td >Pending</td>
+                            <td class="primary">Edit</td>
+                            <td class="warning">Delete</td>
+                        </tr>
+                        <tr>
+                            <td>101</td>
+                            <td>Watch</td>
+                            <td>2000</td>
+                            <td>Pending</td>
+                            <td class="primary">Edit</td>
+                            <td class="warning">Delete</td>
+                        </tr>
+                        <tr>                          
+                            <td>101</td>
+                            <td>Watch</td>
+                            <td>2000</td>
+                            <td>Pending</td>
+                            <td class="primary">Edit</td>
+                            <td class="warning">Delete</td>
+                        </tr>
+                    </tbody>
+                    <div id="edittable"></div>
+                </table>
+             </div>
+             <!-- End recent orders -->
+
+        </main>
+        <!-- main section end -->
+
+        <!-- right section start -->
+        <div class="right">
+            <div class="top">
+
+            <button id="menu_bar">
+                <span class="material-symbols-outlined"> menu</span>
+            </button>
+            <div class="theme_toggler">
+                <span class="material-symbols-outlined" id="active"> light_mode</span>
+                <span class="material-symbols-outlined"> dark_mode</span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p><b>Delight</b></p>
+                    <small class="text-muted"></small>
+                </div>
+                <div class="profile_photo">
+                    <img src="" alt="">
+                </div>
+            </div>
+            </div>
+            <!-- end top -->
+
+            <!-- start Customer feedback-->
+             <div class="recent_updates">
+                <h2>Customer Feedback</h2>
+
+                <div class="updates">
+                <div class="update">
+                    <div class="rating_icon">
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                    </div>   
+                    <div class="message">
+                    <p>Very nice product</p>
+                </div>
+                </div>
+                <div class="update">
+                    <div class="rating_icon">
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                    </div>   
+                    <div class="message">
+                    <p>Good quality product</p>
+                </div>
+                </div>
+                <div class="update">
+                    <div class="rating_icon">
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                        <span class="material-symbols-outlined"> star</span>
+                    </div>   
+                    <div class="message">
+                    <p>Very good</p>
+                </div>
+              </div>
+            </div>
+             </div>
+        <!-- end customer feadback -->
+
+         <!-- start sale analysis -->
+          <div class="sales_analytics">
+            <h2>Sale Anatylics</h2>
+            <div class="item_online">
+                <div class="icon">
+                <span class="material-symbols-outlined"> shopping_cart</span>
+                </div>
+                <div class="right_text">
+                    <div class="info">
+                        <h3>Online Orders</h3>
+                        <small class="text-muted">Last seen 1 Hours</small>
+                    </div>
+                    <h5 class="danger">-17%</h5>
+                    <h3>302</h3>
+                </div>
+            </div>
+
+            <div class="item_online">
+                <div class="icon">
+                <span class="material-symbols-outlined"> shopping_cart</span>
+                </div>
+                <div class="right_text">
+                    <div class="info">
+                        <h3>Shop-2 sales</h3>
+                        <small class="text-muted">Last seen 2 Hours</small>
+                    </div>
+                    <h5 class="danger">-20%</h5>
+                    <h3>302</h3>
+                </div>
+            </div>
+
+            <div class="item_online">
+                <div class="icon">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </div>
+                <div class="right_text">
+                    <div class="info">
+                        <h3>Offline Sales</h3>
+                        <small class="text-muted">Last seen 3 Hours</small>
+                    </div>
+                    <h5 class="danger">-11%</h5>
+                    <h3>302</h3>
+                </div>
+            </div>
+
+          </div>
+          <!-- end sale analysis -->
+        </div>
+        <!-- right section end -->
+    </div>
+    <script src="db.js"></script>
+</body>
+</html>
